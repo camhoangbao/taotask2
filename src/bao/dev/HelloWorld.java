@@ -2,6 +2,24 @@ package bao.dev;
 
 public class HelloWorld {
      public static void main(String[] ars ) {
-     System.out.println("Hello World");
-     }
+    	double a=6;
+ 		double b=10;
+ 		double c=4;
+ 		double x,x1,x2;
+ 		double delta;
+ 		delta = b*b-4*a*c;
+ 		if(delta>0) {
+         x1=(b-Math.sqrt(delta)/2*a);
+         System.out.println("nghiem x1:"+x1);
+         x2=(b+Math.sqrt(delta)/2*a);
+         System.out.println("nghiem x2:"+x2);
+          		}
+ 		 else if(delta <0) {
+ 			 System.out.println("phuong trinh co nghiem");
+ 		 }
+ 		 else if(delta ==0) {
+ 			 x=-b/2*a;
+ 			 System.out.println("nghiem kep x:"+x);
+ 	}
+}
 }
